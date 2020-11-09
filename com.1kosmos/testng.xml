@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="1KosmosAssignment">
+<listeners>
+<listener class-name = "com.utilities.UT03_Reporting"></listener>
+</listeners>
+	<test thread-count="5" name="1Kosmos">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.testcases.TC001">
+			</class>
+		</classes>
+	</test> <!-- 1Kosmos -->
+</suite> <!-- 1KosmosAssignment -->

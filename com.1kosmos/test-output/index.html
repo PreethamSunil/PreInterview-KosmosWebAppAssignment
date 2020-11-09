@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-1KosmosAssignment" class="navigator-link">
+              <span class="suite-name border-failed">1KosmosAssignment</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-1KosmosAssignment" class="navigator-link ">
+                    <span>D:\Assignments\1Kosmos_Assignment1_WebApp\TestNG_Framework\com.1kosmos\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-1KosmosAssignment" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-1KosmosAssignment" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-1KosmosAssignment" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-1KosmosAssignment" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-1KosmosAssignment" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-1KosmosAssignment" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-1KosmosAssignment" class="hide-methods failed suite-1KosmosAssignment"> (hide)</a> <!-- hide-methods failed suite-1KosmosAssignment -->
+                      <a href="#" panel-name="suite-1KosmosAssignment" class="show-methods failed suite-1KosmosAssignment"> (show)</a> <!-- show-methods failed suite-1KosmosAssignment -->
+                    </span>
+                    <div class="method-list-content failed suite-1KosmosAssignment">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-1KosmosAssignment" title="com.testcases.TC001" class="method navigator-link" hash-for-method="AccountSetup">AccountSetup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-1KosmosAssignment" title="com.testcases.TC001" class="method navigator-link" hash-for-method="selectlangauage">selectlangauage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-1KosmosAssignment -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-1KosmosAssignment" class="hide-methods passed suite-1KosmosAssignment"> (hide)</a> <!-- hide-methods passed suite-1KosmosAssignment -->
+                      <a href="#" panel-name="suite-1KosmosAssignment" class="show-methods passed suite-1KosmosAssignment"> (show)</a> <!-- show-methods passed suite-1KosmosAssignment -->
+                    </span>
+                    <div class="method-list-content passed suite-1KosmosAssignment">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-1KosmosAssignment" title="com.testcases.TC001" class="method navigator-link" hash-for-method="Step1_WebSiteLoad">Step1_WebSiteLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-1KosmosAssignment" title="com.testcases.TC001" class="method navigator-link" hash-for-method="languagedropdownCount">languagedropdownCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-1KosmosAssignment -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-1KosmosAssignment" class="panel 1KosmosAssignment">
+          <div class="suite-1KosmosAssignment-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcases.TC001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountSetup">
+                  </a> <!-- AccountSetup -->
+                  <span class="method-name">AccountSetup</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; style=&quot;color: rgb(0, 127, 163);&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 575). Other element would receive the click: &lt;div style=&quot;position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 2000;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;QATEST-1721815&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Pramati\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e5b92a4d8f59376fc48a3530bb9a30c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.pages.Page01_Login.cmdClickParentSupport(Page01_Login.java:62)
+	at com.testcases.TC001.AccountSetup(TC001.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectlangauage">
+                  </a> <!-- selectlangauage -->
+                  <span class="method-name">selectlangauage</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (9e5b92a4d8f59376fc48a3530bb9a30c)] -&gt; xpath: //div[@class=&apos;accountDetailsLangDropDown&apos;]//div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;QATEST-1721815&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Pramati\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e5b92a4d8f59376fc48a3530bb9a30c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.utilities.UT01_WaitHelper.waitHelp(UT01_WaitHelper.java:18)
+	at com.pages.Page01_Login.cmdLangSelected(Page01_Login.java:120)
+	at com.testcases.TC001.selectlangauage(TC001.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-1KosmosAssignment-class-failed -->
+          <div class="suite-1KosmosAssignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.TC001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step1_WebSiteLoad">
+                  </a> <!-- Step1_WebSiteLoad -->
+                  <span class="method-name">Step1_WebSiteLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languagedropdownCount">
+                  </a> <!-- languagedropdownCount -->
+                  <span class="method-name">languagedropdownCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-1KosmosAssignment-class-passed -->
+        </div> <!-- panel 1KosmosAssignment -->
+        <div panel-name="test-xml-1KosmosAssignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Assignments\1Kosmos_Assignment1_WebApp\TestNG_Framework\com.1kosmos\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;1KosmosAssignment&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.utilities.UT03_Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;1Kosmos&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.TC001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 1Kosmos --&gt;
+&lt;/suite&gt; &lt;!-- 1KosmosAssignment --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-1KosmosAssignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 1KosmosAssignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">1Kosmos (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-1KosmosAssignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 1KosmosAssignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-1KosmosAssignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 1KosmosAssignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_1KosmosAssignment');
+function tableData_1KosmosAssignment() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectlangauage')
+data.setCell(0, 2, 'com.testcases.TC001')
+data.setCell(0, 3, 31662);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'languagedropdownCount')
+data.setCell(1, 2, 'com.testcases.TC001')
+data.setCell(1, 3, 2637);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AccountSetup')
+data.setCell(2, 2, 'com.testcases.TC001')
+data.setCell(2, 3, 1896);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Step1_WebSiteLoad')
+data.setCell(3, 2, 'com.testcases.TC001')
+data.setCell(3, 3, 392);
+window.suiteTableData['1KosmosAssignment']= { tableData: data, tableDiv: 'times-div-1KosmosAssignment'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-1KosmosAssignment">
+              </div> <!-- times-div-1KosmosAssignment -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-1KosmosAssignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 1KosmosAssignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-1KosmosAssignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-1KosmosAssignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TC001</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Step1_WebSiteLoad</span>
+                <span class="method-start">28118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">languagedropdownCount</span>
+                <span class="method-start">28530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectlangauage</span>
+                <span class="method-start">31171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AccountSetup</span>
+                <span class="method-start">62839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">65163 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

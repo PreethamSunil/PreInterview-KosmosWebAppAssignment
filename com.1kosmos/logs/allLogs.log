@@ -1,0 +1,80 @@
+2020-11-06 17:36:39 INFO  Automation Logger:30 - ----------Automation Scripts are Strated----------- 
+ 2020-11-06 17:36:43 INFO  Automation Logger:36 - Chrome Browser has been Initiated
+ 2020-11-06 17:37:08 INFO  Automation Logger:40 - Launched the URL https://www.mypedia.pearson.com/
+ 2020-11-06 17:37:08 INFO  Automation Logger:18 - ----Test1 Started: Description: Ensure the website load----
+ 2020-11-06 17:37:08 INFO  Automation Logger:22 - ----Test1 Completed: Description: Ensure the website load----
+ 2020-11-06 17:37:08 INFO  Automation Logger:28 - ----Test2 Started: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-06 17:37:10 INFO  Automation Logger:32 - ----Test2 Completed: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-06 17:37:10 INFO  Automation Logger:39 - ----Test3 Started: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-06 17:37:12 INFO  Automation Logger:65 - ----Test3 Completed: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-06 17:37:12 INFO  Automation Logger:77 - ----Test4 Started: Description: Account Created -- Data Driven----
+ 2020-11-06 17:37:33 INFO  Automation Logger:113 - ----Test4 Completed: Description: Account Created -- Data Driven----
+ 2020-11-06 17:37:34 INFO  Automation Logger:51 - ---------Driver has been Terminated Successfully---------
+ 2020-11-06 19:05:54 INFO  Automation Logger:30 - ----------Automation Scripts are Strated----------- 
+ 2020-11-06 19:05:58 INFO  Automation Logger:36 - Chrome Browser has been Initiated
+ 2020-11-06 19:06:04 INFO  Automation Logger:40 - Launched the URL https://www.mypedia.pearson.com/
+ 2020-11-06 19:06:04 INFO  Automation Logger:18 - ----Test1 Started: Description: Ensure the website load----
+ 2020-11-06 19:06:04 INFO  Automation Logger:22 - ----Test1 Completed: Description: Ensure the website load----
+ 2020-11-06 19:06:04 INFO  Automation Logger:28 - ----Test2 Started: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-06 19:06:07 INFO  Automation Logger:32 - ----Test2 Completed: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-06 19:06:07 INFO  Automation Logger:39 - ----Test3 Started: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-06 19:06:09 INFO  Automation Logger:65 - ----Test3 Completed: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-06 19:06:09 INFO  Automation Logger:77 - ----Test4 Started: Description: Account Created -- Data Driven----
+ 2020-11-06 19:06:30 INFO  Automation Logger:113 - ----Test4 Completed: Description: Account Created -- Data Driven----
+ 2020-11-06 19:06:31 INFO  Automation Logger:51 - ---------Driver has been Terminated Successfully---------
+ 2020-11-09 15:30:10 INFO  Automation Logger:30 - ----------Automation Scripts are Strated----------- 
+ 2020-11-09 15:30:14 INFO  Automation Logger:36 - Chrome Browser has been Initiated
+ 2020-11-09 15:30:38 INFO  Automation Logger:40 - Launched the URL https://www.mypedia.pearson.com/
+ 2020-11-09 15:30:38 INFO  Automation Logger:18 - ----Test1 Started: Description: Ensure the website load----
+ 2020-11-09 15:30:38 INFO  Automation Logger:22 - ----Test1 Completed: Description: Ensure the website load----
+ 2020-11-09 15:30:38 INFO  Automation Logger:28 - ----Test2 Started: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 15:30:40 INFO  Automation Logger:32 - ----Test2 Completed: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 15:30:40 INFO  Automation Logger:39 - ----Test3 Started: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-09 15:30:42 INFO  Automation Logger:65 - ----Test3 Completed: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-09 15:30:42 INFO  Automation Logger:77 - ----Test4 Started: Description: Account Created -- Data Driven----
+ 2020-11-09 15:30:58 INFO  Automation Logger:51 - ---------Driver has been Terminated Successfully---------
+ 2020-11-09 16:05:21 INFO  Automation Logger:30 - ----------Automation Scripts are Strated----------- 
+ 2020-11-09 16:05:25 INFO  Automation Logger:36 - Chrome Browser has been Initiated
+ 2020-11-09 16:05:48 INFO  Automation Logger:40 - Launched the URL https://www.mypedia.pearson.com/
+ 2020-11-09 16:05:50 INFO  Automation Logger:18 - ----Test1 Started: Description: Ensure the website load----
+ 2020-11-09 16:05:50 INFO  Automation Logger:22 - ----Test1 Completed: Description: Ensure the website load----
+ 2020-11-09 16:05:50 INFO  Automation Logger:28 - ----Test2 Started: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 16:05:52 INFO  Automation Logger:32 - ----Test2 Completed: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 16:05:52 INFO  Automation Logger:39 - ----Test3 Started: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-09 16:05:54 INFO  Automation Logger:65 - ----Test3 Completed: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-09 16:05:54 INFO  Automation Logger:77 - ----Test4 Started: Description: Account Created -- Data Driven----
+ 2020-11-09 16:06:11 INFO  Automation Logger:52 - ---------Driver has been Terminated Successfully---------
+ 2020-11-09 16:10:27 INFO  Automation Logger:30 - ----------Automation Scripts are Strated----------- 
+ 2020-11-09 16:10:31 INFO  Automation Logger:36 - Chrome Browser has been Initiated
+ 2020-11-09 16:10:54 INFO  Automation Logger:40 - Launched the URL https://www.mypedia.pearson.com/
+ 2020-11-09 16:10:56 INFO  Automation Logger:18 - ----Test1 Started: Description: Ensure the website load----
+ 2020-11-09 16:10:56 INFO  Automation Logger:22 - ----Test1 Completed: Description: Ensure the website load----
+ 2020-11-09 16:10:56 INFO  Automation Logger:28 - ----Test2 Started: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 16:10:58 INFO  Automation Logger:32 - ----Test2 Completed: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 16:10:58 INFO  Automation Logger:39 - ----Test3 Started: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-09 16:11:00 INFO  Automation Logger:65 - ----Test3 Completed: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-09 16:11:00 INFO  Automation Logger:77 - ----Test4 Started: Description: Account Created -- Data Driven----
+ 2020-11-09 16:11:19 INFO  Automation Logger:113 - ----Test4 Completed: Description: Account Created -- Data Driven----
+ 2020-11-09 16:11:20 INFO  Automation Logger:52 - ---------Driver has been Terminated Successfully---------
+ 2020-11-09 16:14:22 INFO  Automation Logger:30 - ----------Automation Scripts are Strated----------- 
+ 2020-11-09 16:14:26 INFO  Automation Logger:36 - Chrome Browser has been Initiated
+ 2020-11-09 16:14:47 INFO  Automation Logger:40 - Launched the URL https://www.mypedia.pearson.com/
+ 2020-11-09 16:14:50 INFO  Automation Logger:18 - ----Test1 Started: Description: Ensure the website load----
+ 2020-11-09 16:14:50 INFO  Automation Logger:22 - ----Test1 Completed: Description: Ensure the website load----
+ 2020-11-09 16:14:50 INFO  Automation Logger:28 - ----Test2 Started: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 16:14:53 INFO  Automation Logger:32 - ----Test2 Completed: Description:  Confirm that language dropdown has at least 3 languages----
+ 2020-11-09 16:14:53 INFO  Automation Logger:39 - ----Test3 Started: Description:  Auto-Select different languages and validate that the label of the
+		// [CONTINUE] button changes to selected language.----
+ 2020-11-09 16:15:24 INFO  Automation Logger:77 - ----Test4 Started: Description: Account Created -- Data Driven----
+ 2020-11-09 16:15:28 INFO  Automation Logger:52 - ---------Driver has been Terminated Successfully---------
+ 
